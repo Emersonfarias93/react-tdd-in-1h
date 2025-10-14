@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Classes específicas para o componente */
+.input-section {
+    margin-bottom: 25px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #ffffff;
+    color: #1a202c;
+}
+
+.input-field:focus {
+    border-color: #667eea;
+    box-shadow:
+            0 0 0 3px rgba(102, 126, 234, 0.1),
+            0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.input-field.valid {
+    border-color: #10b981;
+    background: #f0fdf4;
+}
+
+.input-field.invalid {
+    border-color: #ef4444;
+    background: #fef2f2;
+}
+
+.feedback-container {
+    min-height: 40px;
+    margin-top: 8px;
+}
+
+.document-type {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 5px;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
