@@ -8,7 +8,7 @@ Este projeto demonstra a implementação de **Test-Driven Development (TDD)** em
 
 ```bash
     git clone https://github.com/Emersonfarias93/react-tdd-in-1h.git
-    cd react-tdd-1-hora
+    cd react-tdd-1-h
 ```
 
 ### Instalação e execução
